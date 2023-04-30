@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Roll The Dice </title>
+</head>
+
+<body>
+    <main class="container">
+
+        <section class="left">
+            <div class="photo-container">
+                <label class="choose">
+                    <input type="radio" name="test" hidden value="assets/avatar/1.png"/>
+                    <img src="assets/avatar/1.png" class="avatar" alt="avatar1">
+                </label class="choose">
+                <label class="choose">
+                    <input type="radio" name="test" hidden value="assets/avatar/2.png"/>
+                    <img src="assets/avatar/2.png" class="avatar" alt="avatar1">
+                </label class="choose">
+                <label class="choose">
+                    <input type="radio" name="test" hidden value="assets/avatar/3.png"/>
+                    <img src="assets/avatar/3.png" class="avatar" alt="avatar1">
+                </label class="choose">
+                <label class="choose">
+                    <input type="radio" name="test" hidden value="assets/avatar/4.png"/>
+                    <img src="assets/avatar/4.png" class="avatar" alt="avatar1">
+                </label class="choose">
+            </div>
+            <div>
+                <p class="text">What's your name?</p>
+                <input type="text" class="name-inputleft" placeholder="E.g. Mad Dog">
+            </div>
+            <button class="enter-btnleft"> Enter</button>
+        </section>
+
+
+        <section class="middle">
+
+
+            <div class="top-part">
+                <div class="player-left">
+                    <p class="player1-name">player 1</p>
+                    <img class="avatarLeft" src="assets/avatar/5.png" alt="avatarLeft">
+                </div>
+                <div class="player-right">
+                    <p class="player2-name">player 2</p>
+                    <img class="avatarRight" src="assets/avatar/5.png" alt="avatarRight">
+                </div>
+            </div>
+
+
+            <div class="bottom-part">
+                <div> 
+                    <button class="diceBtn">Roll the Dice</button>
+                </div>
+                <div class="dice">
+                    <div class="diceLeft">
+                        <img class="diceImageL">
+                    </div>
+                    <div class="diceRight">
+                        <img class="diceImageR">
+                    </div>
+                </div>
+                <h2></h2>
+            </div>
+        </section>
+
+
+        <section class="right">
+            <div class="photo-container">
+                <label class="choose">
+                    <input type="radio" name="test" hidden value="assets/avatar/1.png"/>
+                    <img src="assets/avatar/1.png" class="avatar" alt="avatar1" >
+                </label class="choose">
+                <label class="choose">
+                    <input type="radio" name="test" hidden value="assets/avatar/2.png"/>
+                    <img src="assets/avatar/2.png" class="avatar" alt="avatar1">
+                </label class="choose">
+                <label class="choose">
+                    <input type="radio" name="test" hidden value="assets/avatar/3.png"/>
+                    <img src="assets/avatar/3.png" class="avatar" alt="avatar1">
+                </label class="choose">
+                <label class="choose">
+                    <input type="radio" name="test" hidden value="assets/avatar/4.png"/>
+                    <img src="assets/avatar/4.png" class="avatar" alt="avatar1">
+                </label class="choose">
+            </div>
+            <div>
+                <p class="text">What's your name?</p>
+                <input type="text" class="name-inputright" placeholder="E.g. Mad Dog">
+            </div>
+            <button class="enter-btnright"> Enter</button>
+        </section>
+
+    </main>
+</body>
+
+
+
+<script src="main.js" src="/js/jquery-1.2.6.min.js" charset="utf8"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</html>

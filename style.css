@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.middle{
+    flex-grow: 2;
+    height: 100vh;
+    background-color: #DAFDBA;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.right,.left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    height: 100vh;
+    background-color: #45C4B0;
+}
+
+.text{
+    font-size: 15px;
+    margin: 30px 0;
+    color: #123638;
+}
+
+.name-inputleft, .name-inputright{
+    border-style: none;
+    outline: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #123638;
+    color: #fff;  
+    cursor: text;
+    box-shadow: 4px 5px 14px 0px rgba(42,42,42,.71);   
+}
+.name-inputleft::placeholder{
+    color: #fff;
+}
+
+.name-inputright::placeholder{
+    color: #fff;
+}
+
+.top-part{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.player1-name, .player2-name{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.enter-btnleft, .enter-btnright{
+    width: 120px;
+    height: 50px;
+    background-color: #123638;
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 4px 5px 14px 0px rgba(42,42,42,.71);
+    cursor: pointer;
+}
+
+.enter-btnright:hover{
+    color: #FCE9CC;
+}
+
+.enter-btnleft:hover{
+    color: #FCE9CC;
+}
+
+.photo-container{
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(2,130px);
+}
+
+.avatar{
+    width: 140px;
+    height: 140px;
+}
+
+.avatarLeft, .avatarRight{
+    width: 140px;
+    height: 140px;
+}
+
+.choose{
+    cursor: pointer;
+}
+
+.avatar:hover{
+    border-radius: 70px;
+    border: solid 3px #DAFDBA;
+}
+
+.show-avatar{
+    width: 140px;
+    height: 140px;
+}
+
+
+.bottom-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.diceBtn{
+    width: 200px;
+    height: 50px;
+    background-color: #123638;
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 4px 5px 14px 0px rgba(42,42,42,.71);
+    cursor: pointer;
+    margin: 20px;
+}
+
+.diceRight, .diceLeft{
+    width: 200PX;
+    height: 200PX;
+    margin: 40px; 
+    box-shadow: 4px 5px 14px 0px rgba(42,42,42,.71);
+    border-radius: 20PX;
+}
+
+.diceImageL, .diceImageR {
+    width: 200PX;
+    height: 200PX;
+}
+
+h2{
+    font-size: 15px;
+    color: #123638;
+    margin: 10px;
+}
